@@ -1,7 +1,7 @@
 {
-  "id": "template",
-  "name": "Plugin Template",
-  "description": "This is a template for Unifier plugins.",
+  "id": "globaiban",
+  "name": "the globaiban",
+  "description": ":nevheh:",
   "version": "v1.0.0",
   "release": 0,
   "minimum": 36,
@@ -9,7 +9,7 @@
   "requirements": [],
   "shutdown": false,
   "modules": [
-    "template.py"
+    "globaiban.py"
   ],
   "utils": [
   ]
