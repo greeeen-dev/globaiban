@@ -3,3 +3,6 @@
 the second L is actually an i
 
 troll your friends into thinking they got banned from your instance when they didn't with this prank command
+
+## how 2 install
+`u!install https://github.com/greeeen-dev/unifier-globaiban`
