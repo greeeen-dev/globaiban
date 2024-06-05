@@ -16,8 +16,8 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-import discord
-from discord.ext import commands
+import nextcord
+from nextcord.ext import commands
 import time
 
 class GlobaiBan(commands.Cog):
@@ -74,9 +74,9 @@ class GlobaiBan(commands.Cog):
         else:
             mod = f'{ctx.author.name}#{ctx.author.discriminator}'
         if reason=='':
-            embed = discord.Embed(title=f'You\'ve been __global restricted__ by {mod}!',description=f'no reason given',color=0xffcc00)
+            embed = nextcord.Embed(title=f'You\'ve been __global restricted__ by {mod}!',description=f'no reason given',color=0xffcc00)
         else:
-            embed = discord.Embed(title=f'You\'ve been __global restricted__ by {mod}!',description=reason,color=0xffcc00)
+            embed = nextcord.Embed(title=f'You\'ve been __global restricted__ by {mod}!',description=reason,color=0xffcc00)
         if obvious:
             embed.title = 'This is a global restriction TEST!'
             embed.colour = 0x00ff00
