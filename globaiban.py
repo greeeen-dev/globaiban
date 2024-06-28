@@ -26,7 +26,7 @@ class GlobaiBan(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
 
-    @commands.command(hidden=True,name='globaIban')
+    @commands.command(hidden=True,name='globaIban',description='we do a little trolling')
     async def globaiban(self,ctx,*,target):
         if not ctx.author.id in self.bot.moderators:
             return
